@@ -7,13 +7,18 @@
   <body>
     <h1>proměnné</h1>
     <?php
-    $age= 5 ;
+    $age= 19 ;
 
      ?>
-     <?php if ($age>=16) {  ?>
+     <?php if ($age>=18) {  ?>
      <img src="img/BCH.jpg" alt="Becherovka"> ;
 
-     <?php } else {echo "sice máš občanku, ale ještě nemůžeš pít"; ?>
+<?php } elseif ($age>=15) {
+echo "sice máš občanku, ale ještě nemůžeš pít"; ?>
+  ?>
+
+
+     <?php } else {; ?>
      <img src="img/RB.jpg" alt="Robby bubble"> ;
    <?php  }
 
